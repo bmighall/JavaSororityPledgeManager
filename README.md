@@ -1,7 +1,7 @@
 # JavaSororityPledgeManager
 Creator: Ben Mighall
 
-This is a simple Java program to demonstrate sorting, aggregation, and file input/output. 
+This is a simple Java program to demonstrate sorting, aggregation, and file input/output; the program manages a list of sororities and their pledges and performs sort operations based on the GPAs of the pledges. 
 
 There are three classes. Pledge is a simple base class containing a sorority pledge's information. Sorority is an intermediate class, containing the information of a given sorority and an ArrayList of Pledge objects, allowing the Driver to manipulate the data in them using various methods; additionally, the class allows for calculation of the overall GPA of the pledges, sorting them by GPA using Quick Sort, classifying each sorority by their overall calculated GPA, and outputting the Sorority data as a String object. The Driver class reads in the data from a list of sororities and a list of pledges, creates an ArrayList of Sorority objects from this data, then uses the methods from the Sorority class to manage the data, sort it, output it, calculate the overall GPA of the sororities then classify them by it, then output the sorted/managed data to a file. 
 
